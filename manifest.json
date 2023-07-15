@@ -1,0 +1,12 @@
+{
+  "name": "NoLBang",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "An extension to fix an annoying DuckDuckGo issue with bangs.",
+  "content_scripts": [
+    {
+      "matches": ["*://duckduckgo.com/l?*"],
+      "js": ["dist/script.js"]
+    }
+  ]
+}
