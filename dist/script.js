@@ -22,5 +22,6 @@
     document.body.style.color = "#eeeeee";
     document.body.textContent = "";
     document.body.appendChild(wrapper);
+    document.title = `Redirecting to ${redirect}`;
     location.href = redirect;
 })();
